@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Audiowide&family=Metal+Mania&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Alumni+Sans+Pinstripe:ital@0;1&family=Audiowide&family=Coming+Soon&family=Macondo+Swash+Caps&family=Metal+Mania&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Splash&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Alumni+Sans+Pinstripe:ital@0;1&family=Audiowide&family=Coming+Soon&family=Iceland&family=Macondo+Swash+Caps&family=Metal+Mania&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Shadows+Into+Light&family=Splash&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    color: white;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+}
+html {
+    background-color: rgb(42, 42, 42);
+}
+main {
+    position: relative;
+}
+
+#section-1 {
+    position: relative;
+    nav {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        height: 70px;
+        width: 100%;
+        .elem1 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            line-height: 18px;
+            height: 60px;
+            width: auto;
+            font-weight: 1000;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .elem2 {
+            padding: 10px;
+            border-bottom: 2px solid rgba(255, 0, 0, 0.621);
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 480px;
+        }
+        .elem3 {
+            font-size: 18px;
+            font-weight: 500;
+            transform: rotate(90deg);
+            margin-left: 680px;
+            background-color: rgba(185, 51, 51, 0);
+        }
+    }
+    .topbox1 {
+        width: 100%;
+        height: 550px;
+        padding-top: 80px;
+        padding-left: 500px;
+        .maintext {
+            height: 80%;
+            width: 250px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            line-height: 100px;
+            .bigtext {
+                font-size: 120px;
+                font-family: "Metal Mania", system-ui;
+            }
+        }
+    }
+    .downbox1 {
+        height: 400px;
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 55%;
+
+        .p-box {
+            width: 400px;
+            .p-first {
+                font-size: 26px;
+            }
+            .p-second {
+                padding-top: 20px;
+                font-size: 15px;
+                font-weight: 100;
+                padding-bottom: 50px;
+            }
+            .p-third {
+                font-size: 17px;
+            }
+        }
+    }
+    .first-line {
+        display: flex;
+        position: absolute;
+        height: 2.5px;
+        width: 800px;
+        background-color: rgba(255, 0, 0, 0.245);
+        top: 500px;
+        left: 100px;
+        transform: rotate(45deg);
+    }
+    .second-line {
+        display: flex;
+        position: absolute;
+        height: 2.5px;
+        width: 300px;
+        background-color: rgba(255, 0, 0, 0.237);
+        top: 250px;
+        right: 300px;
+        transform: rotate(-45deg);
+        z-index: -2;
+    }
+}
+#section-2 {
+    .titles {
+        height: auto;
+        width: 100%;
+        padding-left: 180px;
+        
+        .title {
+            z-index: 3;
+            gap: 30px;
+            padding: 10px;
+            display: flex;
+            height: 120px;
+            transition: all 0.1s linear;
+            cursor: pointer;
+            small {
+                font-size: 20px;
+                font-family: "Alumni Sans Pinstripe", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                width: 120px;
+            }
+
+            h1 {
+                font-size: 80px;
+                font-family: "Iceland", sans-serif;
+                font-weight: 10;
+                color: rgba(255, 255, 255, 0.441);
+            }
+        }
+        .title:hover {
+            gap: 30px;
+            padding: 10px;
+            display: flex;
+            height: 120px;
+
+            cursor: pointer;
+            small {
+                font-size: 20px;
+                font-family: "Alumni Sans Pinstripe", sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                width: 120px;
+            }
+
+            h1 {
+                font-size: 80px;
+                font-family: "Iceland", sans-serif;
+                font-weight: 10;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}
+#section-3 {
+    .left {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: 150px;
+        line-height: 45px;
+        h2 {
+            font-size: 60px;
+            font-family: "Metal Mania", system-ui;
+            font-weight: 200;
+            z-index: -2;
+        }
+    }
+    .right {
+        gap: 20px;
+        display: flex;
+        width: 500px;
+        padding-bottom: 500px;
+        margin-left: 250px;
+        margin-top: 500px;
+        .p-right {
+            font-size: 16px;
+            font-weight: 100;
+
+            color: rgba(255, 255, 255, 0.544);
+        }
+    }
+}
+
+/* .audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+#section-3 {
+    display: flex;
+    position: relative;
+  
+}
+
+.lastbox {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    background: linear-gradient(rgba(63, 63, 83, 0) 10%, rgb(26, 24, 41));
+    bottom: 0;
+}
+.lastbox {
+    padding-left: 100px;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+.lastword {
+    font-size: 40px;
+}
+.lastmain {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-left: 500px;
+}
+.finalword {
+    font-family: "Metal Mania", system-ui;
+    font-size: 35px;
+    line-height: 35px;
+}
+.x {
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.325);
+}
+.endline {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    height: 2px;
+    background-color: rgba(255, 0, 0, 0.292);
+    bottom: 40px;
+    left: 80px;
+}
+.photo{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        z-index: -2;
+        transition: all 0.3s linear ;
+    }
+}
+
+
+#canvas-elem::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url(/background-l.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s linear;
+}
+main:has(#section-2 .title:hover) #canvas-elem::after {
+    opacity: 0;
+}
+
+main:has(#section-2 .title[img-title="tomm"]:hover) .photo #tomm{
+    opacity: 1;
+    background-color: #091227;
+}
+main:has(#section-2 .title[img-title="navy"]:hover) .photo #navy{
+    opacity: 1;
+    background-color: #020727;
+}
+main:has(#section-2 .title[img-title="chic"]:hover) .photo #chic{
+    opacity: 1;
+    background-color: #050F27;
+}
+main:has(#section-2 .title[img-title="phon"]:hover) .photo #phon{
+    opacity: 1;
+    background-color:#132036;
+}
+main:has(#section-2 .title[img-title="kikk"]:hover) .photo #kikk{
+    opacity: 1;
+    background-color:#090F74;
+}
+main:has(#section-2 .title[img-title="ken"]:hover) .photo #kenn{
+    opacity: 1;
+    background-color: #0A2534
+}
+main:has(#section-2 .title[img-title="oper"]:hover) .photo #oper{
+    opacity: 1;
+    background-color: #680202;
+}
+
+
+
